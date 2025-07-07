@@ -45,7 +45,7 @@
         maxlength="30"
         max="100"
         min="16"
-        placeholder="Digite sua idade"
+        placeholder="X anos"
         required
         
         />
@@ -101,14 +101,14 @@
     <fieldset>
         <legend>Você já programou antes?</legend>
     <div> 
-        <input type="checkbox" name="Sim"/>
+        <input type="radio" name="pergunta" id="sim"/>
         <label for="sim">Sim</label>
 
     </div>
 
     <div> 
-        <input type="checkbox" name="Não"/>
-        <label for="sim">Não</label>
+        <input type="radio" name="pergunta" id="nao"/>
+        <label for="nao">Não</label>
 
     </div>
         
@@ -148,7 +148,7 @@
 
 
     <div>
-        <label for="linguagem">Selecine grau de experiência</label>
+        <label for="linguagem">Selecione grau de experiência</label>
         <select name="linguagem" id="linguagem">
           <option value="">Selecione uma opção</option>
           <option value="Iniciante">Iniciante</option>
